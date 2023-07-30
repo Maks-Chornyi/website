@@ -12,4 +12,9 @@ public class MainController {
     public String getIndex() {
         return "index";
     }
+
+    @GetMapping("/index.html")
+    public String toIndex() {
+        return "index";
+    }
 }
